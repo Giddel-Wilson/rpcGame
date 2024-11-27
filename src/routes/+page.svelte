@@ -276,7 +276,7 @@
             {/if}
           </div>
           
-          <img src={rule} alt="Game rules diagram" class="w-full h-full object-contain" />
+          <img src={gameMode === 'bonus' ? bonusrules : rule} alt="Game rules diagram" class="w-full h-full object-contain" />
           
           {#if isMobile}
             <button
